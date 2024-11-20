@@ -4,6 +4,8 @@
   "description": "A server that can broadcast messages to connected clients.",
   "main": "index.js",
   "scripts": {
+    "start": "tsc && node dist/broadcast-server.js start",
+    "connect":"tsc && node dist/broadcast-server.js start",
     "test": "npm test"
   },
   "repository": {
